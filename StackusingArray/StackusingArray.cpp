@@ -59,5 +59,16 @@ public:
 int main() {
 	StackArray obj;
 	char ch;
-	while (true);
+	while (true)
+	{
+		cout << endl;
+		cout << "\n***Stack Menu***\n" << endl;
+		cout << "1. Masukan data yang akan ditambahkan" << endl;
+		cout << "2. Masukan data yang akan dihapus" << endl;
+		cout << "3. Tampilkan data yang ada dalam stack" << endl;
+		cout << "4. Keluar" << endl;
+		cout << endl << "Masukan pilihan (1-4): ";
+		char ch;
+		cin >> ch;
+
 }
