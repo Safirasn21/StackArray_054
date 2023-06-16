@@ -12,4 +12,14 @@ public:
 	StackArray() {
 		top = -1;
 	}
+
+	void push() {
+		int element;
+		cout << "Enter an element : ";
+		cin >> element;
+		if (top == 4) {
+			cout << "Number of Data exceed the Limit";
+			return;
+		}
+	}
 };
