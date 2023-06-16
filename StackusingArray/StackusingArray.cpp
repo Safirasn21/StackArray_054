@@ -54,5 +54,10 @@ public:
 			}
 		}
 	}
-
 };
+
+int main() {
+	StackArray obj;
+	char ch;
+	while (true);
+}
