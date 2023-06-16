@@ -39,4 +39,9 @@ public:
 		top--; //step 3
 	}
 
+	//method for check if data is sempty
+	bool empty() {
+		return (top == -1);
+	}
+
 };
