@@ -83,6 +83,8 @@ int main() {
 				cout << "\nStack is empty." << endl;
 				break;
 			}
+			obj.pop();
+			break;
 
 	}
 }
