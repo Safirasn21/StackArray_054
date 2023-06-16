@@ -6,7 +6,6 @@ class StackArray {
 private:
 	int stack_array[5];
 	int top;
-
 public:
 	//constructor
 	StackArray() {
@@ -77,7 +76,6 @@ int main() {
 			obj.push();
 			break;
 		}
-
 		case '2':
 			if (obj.empty()) {
 				cout << "\nStack is empty." << endl;
@@ -85,11 +83,9 @@ int main() {
 			}
 			obj.pop();
 			break;
-
 		case '3':
 			obj.display();
 			break;
-		
 		case '4':
 			return 0;
 		default:
